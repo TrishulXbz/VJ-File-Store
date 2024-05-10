@@ -50,8 +50,8 @@ BOT_USERNAME = environ.get("BOT_USERNAME", "TrishulXBzbot") # your bot username 
 PICS = (environ.get('PICS', 'https://graph.org/file/82ef767ffebe3a948e476.jpg https://graph.org/file/82ef767ffebe3a948e476.jpg')).split() # Bot Start Picture
 
 # Auto Delete Information
-AUTO_DELETE = int(environ.get("AUTO_DELETE", "43200")) # Time in Minutes
-AUTO_DELETE_TIME = int(environ.get("AUTO_DELETE_TIME", "2592000")) # Time in Seconds
+AUTO_DELETE = int(environ.get("AUTO_DELETE", "525600")) # Time in Minutes
+AUTO_DELETE_TIME = int(environ.get("AUTO_DELETE_TIME", "31536000")) # Time in Seconds
 
 
 # Channel Information
